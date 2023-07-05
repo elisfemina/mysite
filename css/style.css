@@ -72,6 +72,7 @@ h4 {
     text-align: center;
 }
 
+
 a.banner-main_down {
     background-image: url(../img/arrowDown.svg);
     display: block;
@@ -102,6 +103,7 @@ a.banner-main_down {
     text-transform: none;
     font-weight: 400;
     text-align: center;
+    color: white;
 }
 
 .fa-telegram-plane {
@@ -285,10 +287,11 @@ a.banner-main_down {
     align-items: center;
 }
 
-.block-footer_flex p {
+.block-footer_flex a {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
+    color: white;
 }
 
 @media only screen and (max-width: 320px) {
@@ -307,13 +310,14 @@ a.banner-main_down {
 
     .thumb {
         width: 300px;
-    }       
-
-    .banner-main {
-        height: min-content;    
     }
 
-    .block-footer_flex p, h4 {
+    .banner-main {
+        height: min-content;
+    }
+
+    .block-footer_flex p,
+    h4 {
         font-size: 18px;
         font-weight: 400;
         text-align: center;
@@ -337,13 +341,14 @@ a.banner-main_down {
 
     .thumb {
         width: 330px;
-    }       
-
-    .banner-main {
-        height: min-content;    
     }
 
-    .block-footer_flex p, h4 {
+    .banner-main {
+        height: min-content;
+    }
+
+    .block-footer_flex p,
+    h4 {
         font-size: 18px;
         font-weight: 400;
         text-align: center;
@@ -366,13 +371,14 @@ a.banner-main_down {
 
     .thumb {
         width: 360px;
-    }       
-
-    .banner-main {
-        height: min-content;    
     }
 
-    .block-footer_flex p, h4 {
+    .banner-main {
+        height: min-content;
+    }
+
+    .block-footer_flex p,
+    h4 {
         font-size: 18px;
         font-weight: 400;
         text-align: center;
@@ -381,7 +387,7 @@ a.banner-main_down {
 
 
 @media only screen and (max-width: 960px) {
-     .flexbox_item p {
+    .flexbox_item p {
         font-size: 16px;
     }
 
@@ -391,13 +397,14 @@ a.banner-main_down {
 
     .thumb {
         width: 300px;
-    }       
-
-    .banner-main {
-        height: min-content;    
     }
 
-    .block-footer_flex p, h4 {
+    .banner-main {
+        height: min-content;
+    }
+
+    .block-footer_flex p,
+    h4 {
         font-size: 18px;
         font-weight: 400;
         text-align: center;
